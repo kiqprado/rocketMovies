@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 
+import { Link } from 'react-router-dom'
+
 export const Container = styled.div`
   max-width: 100%;
   height: 100vh;
@@ -30,7 +32,7 @@ export const Container = styled.div`
   }
 
   p {
-    margin: 2.4rem 0 4.8rem;
+    margin: 2.4rem 0 5.6rem;
     text-align: justify;
   }
 `
@@ -45,7 +47,7 @@ export const UserData = styled.div`
     display: flex;
     gap: 0.8rem;
     align-items: center;
-  
+
     img {
       width: 1.6rem;
       height: 1.6rem;
@@ -66,4 +68,9 @@ export const UserData = styled.div`
 
     color: ${({ theme }) => theme.COLORS.OFF_WHITE};
   }
+`
+
+export const ButtonBack = styled(Link)`
+  display: flex;
+  width: fit-content;
 `

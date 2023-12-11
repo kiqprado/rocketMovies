@@ -37,12 +37,21 @@ export const Form = styled.form`
     margin-top: 2.4rem;
   }
 
+  button:hover {
+    background-color: ${({ theme }) => theme.COLORS.PINK_HOVER};
+    color: ${({ theme }) => theme.COLORS.WHITE};
+  }
+
   a {
     text-align: center;
     margin-top: 4.2rem;
 
     cursor: pointer;
     color: ${({ theme }) => theme.COLORS.PINK};
+  }
+
+  a:hover {
+    color: ${({ theme }) => theme.COLORS.PINK_HOVER};
   }
 `
 

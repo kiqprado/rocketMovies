@@ -31,6 +31,11 @@ export const Content = styled.section`
       background-color: ${({ theme }) => theme.COLORS.BACKGROUND_600};
       color: ${({ theme }) => theme.COLORS.PINK};
     }
+
+    > button:hover {
+      background-color: ${({ theme }) => theme.COLORS.PINK_HOVER};
+      color: ${({ theme }) => theme.COLORS.SATIN_WHITE};
+    }
   }
 `
 

@@ -38,6 +38,11 @@ export const Form = styled.form`
     background-color: ${({ theme }) => theme.COLORS.VIOLET};
   }
 
+  > button:hover {
+    background-color: ${({ theme }) => theme.COLORS.PINK_HOVER};
+    color: ${({ theme }) => theme.COLORS.SATIN_WHITE};
+  }
+
   > div:nth-child(3),
   div:nth-child(5) {
     margin-bottom: 1.6rem;

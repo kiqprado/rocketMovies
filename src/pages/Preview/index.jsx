@@ -1,4 +1,4 @@
-import { Container, UserData } from './styles'
+import { Container, UserData, ButtonBack } from './styles'
 
 import { Header } from '../../components/Header'
 import { ButtonText } from '../../components/ButtonText'
@@ -13,7 +13,12 @@ export function Preview() {
     <Container>
       <Header/>
       <main>
-        <ButtonText title="Voltar"/>
+
+        <ButtonBack to="/">
+          <ButtonText title="Voltar"/>
+        </ButtonBack>
+        
+
         <div className="title">
           <Title title="Interstellar"/>
           <Rate/>

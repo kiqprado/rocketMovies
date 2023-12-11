@@ -8,7 +8,7 @@ export default {
 
     VIOLET: '#8D4F5C',
     PINK: '#FF849B',
-    PINK_HOVER: '#FF69b4',
+    PINK_HOVER: '#F3779C',
 
     SATIN_WHITE: '#F4EDE8',
     OFF_WHITE: '#E5E5E5',

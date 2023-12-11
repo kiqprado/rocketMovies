@@ -37,6 +37,11 @@ export const Form = styled.form`
     margin-top: 2.4rem;
   }
 
+  > button:hover {
+    background-color: ${({ theme }) => theme.COLORS.PINK_HOVER};
+    color: ${({ theme }) => theme.COLORS.WHITE};
+  }
+
   a {
     display: flex;
     gap: 0.8rem;
@@ -47,6 +52,10 @@ export const Form = styled.form`
 
     cursor: pointer;
     color: ${({ theme }) => theme.COLORS.PINK};
+  }
+
+  a:hover {
+    color: ${({ theme }) => theme.COLORS.PINK_HOVER};
   }
 `
 

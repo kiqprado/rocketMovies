@@ -34,6 +34,10 @@ export const Content = styled.div`
       margin-right: 0.8rem;
       color: ${({ theme }) => theme.COLORS.BACKGROUND_500};
     }
+
+    > :hover:nth-child(2) {
+      background: ${({ theme }) => theme.COLORS.PINK_HOVER};
+    }
   }
 `
 export const Button = styled(Link)`

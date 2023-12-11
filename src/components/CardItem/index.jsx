@@ -1,4 +1,5 @@
-import { Container } from './styles'
+import { Container, Title } from './styles'
+
 
 import { Rate } from '../Rate'
 import { Tag } from '../Tag'
@@ -6,8 +7,10 @@ import { Tag } from '../Tag'
 export function CardItem({ title }) {
   return(
     <Container>
-    
-      <h2>{title}</h2>
+
+      <Title to="/preview/:id">
+        {title}
+      </Title>
 
       <Rate/>
 
